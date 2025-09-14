@@ -95,7 +95,7 @@ export default function Footer() {
                 <svg className="w-5 h-5 text-amber-500 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                 </svg>
-                <span className="text-gray-400">الأحد - الخميس: 9ص - 5م</span>
+                <span className="text-gray-400">السبت - الخميس: 9ص - 5م</span>
               </li>
             </ul>
           </div>

@@ -1,9 +1,53 @@
 "use client";
 import Gallery from "../components/Gallery";
+import Head from "next/head";
+
 export default function Home() {
   return (
     <div className="font-tajawal bg-gray-50">
       {/* Hero Section */}
+       <Head>
+        <title>أحمد محمد – فني تركيب وتشطيب رخام والجرانيت</title>
+        <meta
+          name="description"
+          content="أحمد محمد، فني تركيب وتشطيب الرخام والجرانيت في القاهرة. خبرة أكثر من 18 سنة. تركيب أرضيات، واجهات، سلالم، مطابخ وحمامات، ديكورات وفواصل. اتصل الآن."
+        />
+        <meta
+          name="keywords"
+          content="أحمد محمد, فني رخام, تركيب رخام, تشطيب رخام, رخام القاهرة, رخام وجرانيت, سلالم رخام, مطابخ رخام, ديكورات رخام"
+        />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://ahmedportfolio-mu.vercel.app/" />
+
+        {/* Open Graph */}
+        <meta
+          property="og:title"
+          content="أحمد محمد – فني تركيب وتشطيب رخام والجرانيت"
+        />
+        <meta
+          property="og:description"
+          content="أحمد محمد، فني تركيب وتشطيب الرخام والجرانيت في القاهرة. خبرة أكثر من 18 سنة. اتصل الآن."
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://ahmedportfolio-mu.vercel.app/" />
+        <meta property="og:image" content="/image1.jpg" />
+
+        {/* JSON-LD */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Person",
+              name: "أحمد محمد",
+              jobTitle: "فني تركيب وتشطيب رخام وجرانيت",
+              url: "https://ahmedportfolio-mu.vercel.app/",
+              sameAs: ["https://www.facebook.com/share/1A1kXZ6iTR/"],
+            }),
+          }}
+        />
+      </Head>
+
       <section id="home" className="h-screen flex flex-col items-center justify-center text-center bg-gradient-to-r from-gray-800 to-gray-900 text-white relative overflow-hidden">
         <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1615873968403-89e068629265?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80')] bg-cover bg-center opacity-30"></div>
         <div className="relative z-10 max-w-2xl px-4">
@@ -49,8 +93,8 @@ export default function Home() {
         <i className="fas fa-quote-right text-amber-500 text-2xl mb-4 block"></i>
         أنا <span className="font-semibold text-gray-900">أحمد محمد</span>، أعمل
         في مجال <span className="font-semibold">تركيب وتشطيب الرخام</span> بخبرة
-        تمتد لسنوات طويلة. تخصصي هو تنفيذ المشاريع بدقة عالية ولمسة فنية
-        فاخرة تجعل كل فيلا أو شقة تتحول لعمل فني راقي يعكس شخصية أصحابها.
+        تمتد لاكثر من 18 سنة ولدى ورشة ل تصنيع و تشطيب الرخام و الجرانيت المستورد و المصرى بالمنطقة الصناعية للرخام و الجرانيت  . طرة.القاهرة.&quot;شق الثعبان.&quot;
+        
       </p>
       <p className="text-lg md:text-xl mb-6">
         أؤمن أن الرخام ليس مجرد مادة بناء، بل هو عنصر جمالي يضيف قيمة فريدة
